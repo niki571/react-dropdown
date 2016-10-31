@@ -1,0 +1,190 @@
+.cis-login .by-dropmenu {
+    display: block !important;
+    margin: 15px auto !important;
+}
+
+.blueberry .by-dropmenu {
+    font-family: Arial,Helvetica,sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    height: 22px;
+    line-height: 23px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #95aabc;
+    border-radius: 4px;
+    color: #666;
+}
+
+.blueberry .by-fixed-w200 {
+    width: 200px;
+}
+
+.blueberry .by-dropmenu {
+    font-size: 10px;
+    height: 22px;
+    line-height: 23px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #95aabc;
+    border-radius: 4px;
+    color: #666;
+}
+
+.blueberry .by-dropmenu .by-dropmenu-label, .blueberry .by-dropmenu .by-dropmenu-label-variable {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blueberry .by-dropmenu .by-dropmenu-label, .blueberry .by-dropmenu .by-dropmenu-label-variable {
+    height: 100%;
+    width: 100%;
+    padding-left: 7px;
+}
+
+.blueberry .by-dropmenu .by-icon-chevron-down, .blueberry .by-dropmenu .by-icon-chevron-up {
+    width: 15px;
+    height: 100%;
+    right: 5px;
+    top: 5px;
+}
+
+.blueberry .by-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.blueberry .by-icon.by-icon-chevron-down {
+    width: 14px;
+    height: 6px;
+    background-position: 0 0;
+}
+
+.blueberry .by-dropmenu .by-icon.by-icon-chevron-down, .blueberry .by-dropmenu .by-icon.by-icon-chevron-down:hover {
+    background-image: url(../img/icon-chevron-thin-s-cv-blue.svg);
+    background-size: 13px 6px;
+    height: 13px;
+    width: 13px;
+}
+
+.blueberry .by-dropmenu .by-icon.by-icon-chevron-up, .blueberry .by-dropmenu .by-icon.by-icon-chevron-up:hover {
+    background-image: url(../img/icon-chevron-thin-n-cv-blue.svg);
+    background-size: 13px 6px;
+    height: 13px;
+    width: 13px;
+}
+
+.blueberry .by-dropmenu .by-icon-chevron-down, .blueberry .by-dropmenu .by-icon-chevron-up {
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.blueberry .by-dropmenu .by-dropmenu-options-wrapper {
+    top: 22px;
+    left: -1px;
+    background: #fff;
+    border: 1px solid #1165e5;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.blueberry .by-dropmenu-options-wrapper {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.blueberry .by-fixed-width {
+    width: 100%;
+}
+
+.blueberry .by-dropmenu-options {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.blueberry .by-dropmenu-options .by-item {
+    position: relative;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    color: #666;
+    cursor: pointer;
+    width: 100%;
+}
+
+.blueberry .by-dropmenu .by-item {
+    padding: 10px 7px;
+}
+
+.blueberry .by-dropmenu-options .by-item:last-child {
+    border-bottom: none;
+}
+
+.blueberry .by-dropmenu-selected .by-dropmenu-options-wrapper {
+    display: inline-block;
+}
+
+.blueberry .by-dropmenu-options .by-item {
+    position: relative;
+}
+
+.blueberry .by-menuoption-label, .blueberry .by-menuoption-marker {
+    display: table-cell;
+}
+
+.blueberry .by-menuoption-marker {
+    height: 100%;
+    padding: 0;
+    border-bottom: none;
+}
+
+.blueberry .by-menuoption-label, .blueberry .by-menuoption-marker {
+    display: table-cell;
+}
+
+.blueberry .by-dropmenu .by-menuoption-label {
+    padding-right: 10px;
+}
+
+.blueberry .by-dropmenu .by-item .by-menuoption-label {
+    padding-left: 15.4px;
+}
+
+.blueberry .by-dropmenu .dotmarker {
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    margin-right: 7px;
+    background: #fff;
+    left: 7px;
+}
+
+.blueberry .by-dropmenu .dotmarker {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+}
+
+.blueberry .by-dropmenu .by-menuoption-selected .dotmarker {
+    background: #1165e5!important;
+}
+
+.blueberry .by-dropmenu .by-item:hover .dotmarker {
+    background: #00BDF2;
+}
